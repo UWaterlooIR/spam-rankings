@@ -17,7 +17,7 @@ all of the files do (assuming a linux-like setup and bash shell):
   mkdir waterloo-spam-cw12-decoded  
   tar -xvf waterloo-spam-cw12-encoded.tar
   cd waterloo-spam-cw12-encoded
-  for f in *.spamPct.gz ; do cat $f | gunzip -c | ../decompress-spam12 | gzip -c &gt; ../waterloo-spam-cw12-decoded/$f ; done  
+  for f in *.spamPct.gz ; do cat $f | gunzip -c | ../decompress-spam12 | gzip -c > ../waterloo-spam-cw12-decoded/$f ; done  
 ```
 The tar is 654 MB.  Decoded, but still gzip'd, the files are 2.6 GB.
 
