@@ -11,8 +11,8 @@ encoded using [compress-spam12.c](compress-spam12.c) before being gzip'd.  After
 file must be decompressed using [decompress-spam12.c](decompress-spam12.c).  To fetch and uncompress 
 all of the files do (assuming a linux-like setup and bash shell):
 ```bash
-  wget http://www.mansci.uwaterloo.ca/~msmucker/cw12spam/waterloo-spam-cw12-encoded.tar
-  wget http://www.mansci.uwaterloo.ca/~msmucker/cw12spam/decompress-spam12.c
+  wget https://github.com/UWaterlooIR/spam-rankings/releases/download/v1.0/waterloo-spam-cw12-encoded.tar
+  wget https://raw.githubusercontent.com/UWaterlooIR/spam-rankings/main/decompress-spam12.c
   gcc -o decompress-spam12 decompress-spam12.c
   mkdir waterloo-spam-cw12-decoded  
   tar -xvf waterloo-spam-cw12-encoded.tar
