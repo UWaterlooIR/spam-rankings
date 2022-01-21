@@ -5,7 +5,7 @@ the [ClueWeb12 (cw12)](http://lemurproject.org/clueweb12/)
 dataset using spam models developed by [Cormack, Smucker, and
 Clarke for ClueWeb09](http://plg.uwaterloo.ca/~gvcormac/clueweb09spam/).
 
-As part of a "release" of this repository, we include a large tar file, waterloo-spam-cw12-encoded.tar, that
+As part of a [release](https://github.com/UWaterlooIR/spam-rankings/releases/tag/v1.0) of this repository, we include a large tar file, [waterloo-spam-cw12-encoded.tar](https://github.com/UWaterlooIR/spam-rankings/releases/download/v1.0/waterloo-spam-cw12-encoded.tar), that
 contains a gzip file for each of the cw12 directories.  Each file was
 encoded using [compress-spam12.c](compress-spam12.c) before being gzip'd.  After gunzipping, each
 file must be decompressed using [decompress-spam12.c](decompress-spam12.c).  To fetch and uncompress 
